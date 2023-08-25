@@ -5,11 +5,38 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_speednode_0022, server: 156.245.8.246, port: 39651, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 048, server: 103.160.204.243, port: 2052, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇭🇰 香港 046, server: 103.160.204.21, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇭🇰 香港 051, server: 103.160.204.194, port: 2052, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB, server: api-wx-4.rancho.gay, port: 50110, type: ss, cipher: chacha20-ietf-poly1305, password: b6bf8f12-72d8-470e-9bea-95457fd24949}
+  - {name: 🇸🇬 新加坡 014, server: 13.bbzbb.top, port: 2052, type: vmess, uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 13.bbzbb.top}}}
+  - {name: 🇯🇵 日本 006, server: jp04-vm0.entry.srthdw.art, port: 444, type: vmess, uuid: 2d98a577-c108-3dfa-baeb-8d70819ec5b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 _HK_香港 6, server: 103.160.204.103, port: 2052, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 _HK_香港 2, server: 103.160.204.21, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 _HK_香港 3, server: 103.160.204.154, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇰🇷 _KR_韩国, server: 43.201.49.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.29.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 _HK_香港 4, server: 103.160.204.243, port: 2052, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 _HK_香港 5, server: 103.160.204.194, port: 2052, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 28, server: 18.162.56.130, port: 443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港(油管破解资源君2.0), server: 821hk05.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, skip-cert-verify: true}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 2, server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 5, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 6, server: 124.156.143.241, port: 80, type: vmess, uuid: 3cfa2dd2-41cd-4260-dc61-21c8a2446e21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: sg.do.justu.ml}}}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 7, server: 103.218.243.21, port: 10003, type: vmess, uuid: 4fe413ef-e3a2-40df-fba0-6d151dd3b2b4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 8, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 15, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 26, server: 219.76.13.177, port: 443, type: vmess, uuid: f033bd38-fe03-4705-883c-e45654eaa082, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/hkhgc?ed=2048", headers: {Host: hkhgc.meizhiyuanya.xyz}}}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 27, server: 219.76.13.178, port: 443, type: vmess, uuid: f033bd38-fe03-4705-883c-e45654eaa082, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/hkhgc?ed=2048", headers: {Host: hkhgc.meizhiyuanya.xyz}}}
+  - {name: 🇨🇳 台湾(油管破解资源君2.0) 7, server: 219.76.13.175, port: 443, type: vmess, uuid: f033bd38-fe03-4705-883c-e45654eaa082, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/hinet?ed=2048", headers: {Host: hinet.meizhiyuanya.xyz}}}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 29, server: 18.162.207.193, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(油管破解资源君2.0), server: 139.180.140.20, port: 42424, type: vmess, uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡(油管破解资源君2.0) 5, server: 91.243.81.42, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(油管破解资源君2.0) 6, server: 20.24.44.110, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(油管破解资源君2.0) 8, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
+  - {name: 🇭🇰 github.com/freefq - 香港香港宽频有限公司 1, server: 61.244.57.71, port: 40003, type: vmess, uuid: dc99eede-d0f9-40b2-aaa5-180cae8f7c0e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwe123321ewq}}
+  - {name: 🇭🇰 github.com/freefq - 香港城市电讯有限公司 2, server: 123.202.233.79, port: 40001, type: vmess, uuid: dc99eede-d0f9-40b2-aaa5-180cae8f7c0e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwe123321ewq}}
+  - {name: 🇯🇵 日本(油管破解资源君2.0) 5, server: metapod.defun.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, skip-cert-verify: true}
+  - {name: 🇯🇵 日本(油管破解资源君2.0) 4, server: 141.147.191.85, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本(油管破解资源君2.0) 3, server: 155.248.172.87, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本(油管破解资源君2.0) 2, server: 146.56.167.119, port: 6666, type: vmess, uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本(油管破解资源君2.0), server: setup.beistu.xyz, port: 22358, type: vmess, uuid: 2024fb69-342a-4a9d-c0dd-cde6f1095748, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧, server: 45.66.134.176, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧, server: 193.38.139.203, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧, server: 193.38.139.204, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -22,80 +49,54 @@ proxies:
   - {name: 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧, server: jpamd.fineyoo.ml, port: 443, type: vmess, uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jpamd.fineyoo.ml}}}
   - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧, server: amdkr.ptuu.ga, port: 443, type: vmess, uuid: a612b67f-a79b-4a71-a82b-a46906752023, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /408, headers: {Host: amdkr.ptuu.ga}}}
   - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧, server: amdkr.ptuu.ml, port: 443, type: vmess, uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /987, headers: {Host: amdkr.ptuu.ml}}}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB, server: sz.cny.page, port: 11536, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB, server: assets.flareai.site, port: 15343, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB, server: tw2.linghun3.xyz, port: 40005, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB, server: tw1.linghun3.xyz, port: 40004, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB, server: cdn.alibaba-kunlun.com, port: 14107, type: ss, cipher: aes-128-gcm, password: ed53251d-83eb-43fa-9439-b1bc45bf7ca3}
-  - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1, server: v6.583181.xyz, port: 80, type: vmess, uuid: 561d9533-e20a-4ff0-83d4-80d0cc588dfb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v6.583181.xyz}}}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB, server: api-a-asia-2.mcqqn.com, port: 61006, type: ss, cipher: chacha20-ietf-poly1305, password: b6bf8f12-72d8-470e-9bea-95457fd24949}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB, server: catlog.flareai.science, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB, server: 03.xn--8fr22cd4k1m9c.cn, port: 44521, type: ss, cipher: aes-128-gcm, password: de467768-8540-43de-88a4-7299a2bbeaec}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB, server: gzdx.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: bb0f1568-4cb3-490d-82c4-f654455cd07c}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB, server: zjcu.lele233.top, port: 26111, type: ss, cipher: chacha20-ietf-poly1305, password: fd6b031e-7b35-4716-8e53-060c755b5259}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB, server: hk3.linghun3.xyz, port: 40002, type: ss, cipher: aes-256-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
-  - {name: 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB, server: gdcm.v-too.cloud, port: 37532, type: ss, cipher: chacha20-ietf-poly1305, password: 08c0041e-105e-43b7-9627-b28e8f62fd00}
-  - {name: 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB, server: zf.678889.xyz, port: 44012, type: ss, cipher: chacha20-ietf-poly1305, password: f4ef757a-3d0c-4126-b409-7675f7da8a6c}
-  - {name: 🇯🇵 Relay 🇯🇵 Japan 18 TG@SSRSUB, server: zf.678889.xyz, port: 44011, type: ss, cipher: chacha20-ietf-poly1305, password: f4ef757a-3d0c-4126-b409-7675f7da8a6c}
-  - {name: 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB, server: piniasg01.abbblog.xyz, port: 37908, type: ss, cipher: aes-128-gcm, password: 6652a517-36da-4db4-9607-326c2db9aa70}
-  - {name: 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB, server: sg2.linghun3.xyz, port: 40009, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB, server: azhj.xifasd.top, port: 20767, type: trojan, password: c39d5e05-3d06-317e-b5ca-e2f71b661570, sni: ssl.ssl12.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 23 TG@SSRSUB, server: gg.xn--gmqa02ag57d.com, port: 36821, type: trojan, password: bd1f1b56-631b-308e-9f48-ec4a1d97aeaf, sni: z262.hongkongnode.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB, server: a006.zhuan99.men, port: 10006, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB, server: 805tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 805tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB, server: 0309tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 0309tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB, server: 419tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 419tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB, server: 625tw.ljydw.top, port: 80, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 625tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 01 TG@SSRSUB, server: hk19.microsoftjs.top, port: 443, type: trojan, password: a21e5380-7711-4c6d-af44-e6210e5436af, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 05 TG@SSRSUB, server: 16.162.44.241, port: 443, type: trojan, password: be8b8f45-a290-4405-8699-ffeb07f3ee24, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 111, server: 162.159.243.53, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 美国 004, server: vless.wyhkaa0.cf, port: 80, type: vmess, uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: vless.wyhkaa0.cf}}}
-  - {name: 🇺🇸 美国 115, server: 172.64.133.137, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 V006--US-付费推荐dlj.tf/ssrsub, server: speedip.eu.org, port: 80, type: vmess, uuid: 72e8030a-96c2-4bdb-acfb-5bc02248f9f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}}
-  - {name: 🇺🇸 美国 109, server: 172.64.143.109, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国 113, server: 172.64.103.88, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇨🇦 加拿大 169, server: 172.67.212.44, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇺🇸 美国 112, server: 162.159.253.16, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇦 加拿大 178, server: 172.67.22.15, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国 096, server: 172.64.130.176, port: 80, type: vmess, uuid: f2982db2-23e3-430b-af54-e83ba84205fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xby.daozhang.link}}}
-  - {name: 🇺🇸 美国 117, server: 104.31.16.196, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
-  - {name: 🇨🇦 加拿大 184, server: 172.67.120.200, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国 114, server: 172.64.105.249, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国CloudFlare节点 13, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: 🇨🇦 加拿大 183, server: 172.67.87.175, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇨🇦 加拿大 180, server: 172.67.127.46, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇨🇦 加拿大 177, server: 172.67.152.248, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国 110, server: 156.225.67.73, port: 48909, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0824005, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: 🇺🇸 美国_0824055, server: br.xujason.tk, port: 21202, type: vmess, uuid: cc950e1f-81e6-468d-9189-30a2266aa478, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: br.xujason.tk}}}
-  - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2, server: amdkr.ptuu.ga, port: 443, type: vmess, uuid: a612b67f-a79b-4a71-a82b-a46906752023, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /408, headers: {Host: amdkr.ptuu.ga}}}
-  - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2, server: amdkr.ptuu.ml, port: 443, type: vmess, uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /987, headers: {Host: amdkr.ptuu.ml}}}
-  - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇫🇷 法国 006, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "@SSRSUB-V16-付费推荐dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: eplcgame.com, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 209, server: 172.67.196.139, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 美国 249, server: 56.ddzdd.top, port: 2052, type: vmess, uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 56.ddzdd.top}}}
+  - {name: 🇺🇸 美国 266, server: 42.bbzbb.top, port: 2052, type: vmess, uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 42.bbzbb.top}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11, server: 3.wyhkaa0.gq, port: 2095, type: vmess, uuid: 0150eac1-6e49-4329-9c06-50027c0b9ad7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 3.wyhkaa0.gq}}}
+  - {name: 🇺🇸 美国_08251950, server: 198.2.195.195, port: 43427, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_08251490, server: 137.175.9.203, port: 48101, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_08251495, server: 45.199.138.162, port: 32301, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 241, server: 104.21.231.123, port: 443, type: vmess, uuid: DC91E643-90E9-4358-B742-0960085F874B, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇨🇦 加拿大 111, server: 23.227.39.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 美国_08251483, server: 45.199.138.191, port: 35560, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_08251924, server: 45.199.138.148, port: 37922, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: 183.232.249.189, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国, server: 171.22.116.2, port: 41665, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 7, server: 172.67.184.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 美国_08251493, server: 45.199.138.182, port: 41495, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 162.159.243.53, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 14, server: 172.67.92.55, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
+  - {name: 🇺🇸 美国_08251488, server: 45.199.138.159, port: 32135, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_08251936, server: 140.99.128.101, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_08251930, server: 38.53.92.184, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/130807171609, headers: {Host: www.77646750.xyz}}}
+  - {name: 🇺🇸 美国 248, server: 55.ddzdd.top, port: 2052, type: vmess, uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 55.ddzdd.top}}}
+  - {name: 🇺🇸 美国_08251654, server: 156.225.67.159, port: 39937, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
+  - {name: _CN_中国, server: free.node.kk-proxy.pro, port: 31659, type: ss, cipher: chacha20-ietf-poly1305, password: 00551f42-7e0e-4d7f-88db-07297ff921c9}
+  - {name: 未知_0825027, server: wxll.e5outllok.me, port: 80, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wxll.e5outllok.me}}}
+  - {name: 🇫🇷 法国_0825017, server: uk2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 4e66e7d6-bab0-403d-8ab2-6397090d3612, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: uk2-vmess.greenssh.xyz}}}
   - {name: "@SSRSUB-V14-付费推荐dlj.tf/ssrsub", server: yd1.992688.xyz, port: 8880, type: vmess, uuid: e5f9073b-a23c-487f-b2a8-e5eb6abad21d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}}
-  - {name: "@SSRSUB-V13-付费推荐dlj.tf/ssrsub", server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: "@SSRSUB-V19-付费推荐dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
-  - {name: FR_speednode_0017, server: pl2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: a60d4d2f-6a61-4c16-9d63-94a97e65d1f3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pl2-vmess.greenssh.xyz}}}
-  - {name: "@SSRSUB-V06-付费推荐dlj.tf/ssrsub", server: sg1.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: cf35539e-2c06-4016-b2b6-cd6efa1ceb8e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /djghdk, headers: {Host: sg1.mianfenyun012.eu.org}}}
-  - {name: FR_speednode_0010, server: 156.249.18.24, port: 47865, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 36, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 37, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 38, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 39, server: 185.167.77.195, port: 46279, type: vmess, uuid: 666c9436-3680-4694-d0d6-02e16f725871, alterId: 0, cipher: auto, tls: false}
-  - {name: 亚洲(油管破解资源君2.0) 14, server: 146.56.184.242, port: 19570, type: vmess, uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 41, server: ingress-i2.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用), server: 134.195.196.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 2, server: 104.248.148.147, port: 21888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 104.248.148.147}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/310910211916, headers: {Host: 96.43.91.60}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 4, server: 146.70.48.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 5, server: v125.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /usv125N93nz6Py, headers: {Host: v125.toddns.tk}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 6, server: 185.167.116.24, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 7, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 8, server: 54.180.96.67, port: 8888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 54.180.96.67}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 9, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 10, server: cvywfavasdc.cymlr.xyz, port: 443, type: vmess, uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ksebupo, headers: {Host: cvywfavasdc.cymlr.xyz}}}
+  - {name: 🇫🇷 法国 006, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇦🇹 _FR_法国->🇦🇹_AT_奥地利, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: "🇬🇧 2,4,7,15|_CN_中国->🇬🇧_GB_英国", server: 120.226.50.91, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 64, cipher: auto, tls: false}
+  - {name: "@SSRSUB-V16-付费推荐dlj.tf/ssrsub", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 🇿🇦 github.com/freefq - 南非  15, server: 156.225.67.152, port: 46412, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇿🇦 github.com/freefq - 南非  5, server: 156.225.67.243, port: 43582, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false}
+  - {name: 未知_0825026, server: microsoftdebug.com, port: 80, type: vmess, uuid: 894b6f38-507c-4df2-baa6-feb04b7b43a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v1.us1.microsoftdebug.com}}}
+  - {name: "🇫🇷 %�\x11�%�P���_FR_法国_18%�", server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  35, server: 109.248.25.59, port: 29064, type: vmess, uuid: 8958440c-aa86-4ff1-8e88-5c7a052d5961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ss}}
+  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇻🇳 越南(油管破解资源君2.0) 2, server: 103.173.255.21, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南(油管破解资源君2.0) 3, server: 103.173.255.127, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南(油管破解资源君2.0) 4, server: 103.173.255.228, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南(油管破解资源君2.0) 5, server: 103.173.255.234, port: 28443, type: trojan, password: f033bd38-fe03-4705-883c-e45654eaa082, sni: www.download.windowsupdate1.com, skip-cert-verify: true}
+  - {name: 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9, server: 188.114.97.115, port: 8080, type: vmess, uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: ecc.vtcss.top}}}
+  - {name: github.com/freefq - 亚太地区  12, server: 103.160.204.242, port: 2052, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇫🇷 github.com/freefq - 法国OVH 13, server: pol2.connecton.surf, port: 443, type: trojan, password: 5d91f01a98, skip-cert-verify: false}
+  - {name: 🇨🇳 github.com/freefq - 江苏省联通 19, server: 153.101.64.221, port: 40011, type: vmess, uuid: dc99eede-d0f9-40b2-aaa5-180cae8f7c0e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwe123321ewq}}
+  - {name: github.com/freefq - 亚太地区  21, server: 103.160.204.155, port: 8080, type: vmess, uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 24, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,11 +112,38 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - HK_speednode_0022
-      - 🇭🇰 香港 048
-      - 🇭🇰 香港 046
-      - 🇭🇰 香港 051
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇸🇬 新加坡 014
+      - 🇯🇵 日本 006
+      - 🇭🇰 _HK_香港 6
+      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _HK_香港 3
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港 4
+      - 🇭🇰 _HK_香港 5
+      - 🇭🇰 香港(油管破解资源君2.0) 28
+      - 🇭🇰 香港(油管破解资源君2.0)
+      - 🇭🇰 香港(油管破解资源君2.0) 2
+      - 🇭🇰 香港(油管破解资源君2.0) 5
+      - 🇭🇰 香港(油管破解资源君2.0) 6
+      - 🇭🇰 香港(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 8
+      - 🇭🇰 香港(油管破解资源君2.0) 15
+      - 🇭🇰 香港(油管破解资源君2.0) 26
+      - 🇭🇰 香港(油管破解资源君2.0) 27
+      - 🇨🇳 台湾(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 29
+      - 🇸🇬 新加坡(油管破解资源君2.0)
+      - 🇸🇬 新加坡(油管破解资源君2.0) 5
+      - 🇸🇬 新加坡(油管破解资源君2.0) 6
+      - 🇸🇬 新加坡(油管破解资源君2.0) 8
+      - 🇭🇰 github.com/freefq - 香港香港宽频有限公司 1
+      - 🇭🇰 github.com/freefq - 香港城市电讯有限公司 2
+      - 🇯🇵 日本(油管破解资源君2.0) 5
+      - 🇯🇵 日本(油管破解资源君2.0) 4
+      - 🇯🇵 日本(油管破解资源君2.0) 3
+      - 🇯🇵 日本(油管破解资源君2.0) 2
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
@@ -128,80 +156,54 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
-      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 18 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 23 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇺🇸 美国 111
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 115
-      - 🇺🇸 V006--US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 109
-      - 🇺🇸 美国 113
-      - 🇨🇦 加拿大 169
-      - 🇺🇸 美国 112
-      - 🇨🇦 加拿大 178
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 117
-      - 🇨🇦 加拿大 184
-      - 🇺🇸 美国 114
-      - 🇺🇸 美国CloudFlare节点 13
-      - 🇨🇦 加拿大 183
-      - 🇨🇦 加拿大 180
-      - 🇨🇦 加拿大 177
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国_0824005
-      - 🇺🇸 美国_0824055
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
-      - US_09
-      - 🇫🇷 法国 006
-      - "@SSRSUB-V16-付费推荐dlj.tf/ssrsub"
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 加拿大 209
+      - 🇺🇸 美国 249
+      - 🇺🇸 美国 266
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国_08251950
+      - 🇺🇸 美国_08251490
+      - 🇺🇸 美国_08251495
+      - 🇺🇸 美国 241
+      - 🇨🇦 加拿大 111
+      - 🇺🇸 美国_08251483
+      - 🇺🇸 美国_08251924
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国_08251493
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_08251488
+      - 🇺🇸 美国_08251936
+      - 🇺🇸 美国_08251930
+      - 🇺🇸 美国 248
+      - 🇺🇸 美国_08251654
+      - _CN_中国
+      - 未知_0825027
+      - 🇫🇷 法国_0825017
       - "@SSRSUB-V14-付费推荐dlj.tf/ssrsub"
-      - "@SSRSUB-V13-付费推荐dlj.tf/ssrsub"
-      - "@SSRSUB-V19-付费推荐dlj.tf/ssrsub"
-      - FR_speednode_0017
-      - "@SSRSUB-V06-付费推荐dlj.tf/ssrsub"
-      - FR_speednode_0010
-      - 🇪🇺 欧洲(油管破解资源君2.0) 36
-      - 🇪🇺 欧洲(油管破解资源君2.0) 37
-      - 🇪🇺 欧洲(油管破解资源君2.0) 38
-      - 🇪🇺 欧洲(油管破解资源君2.0) 39
-      - 亚洲(油管破解资源君2.0) 14
-      - 🇪🇺 欧洲(油管破解资源君2.0) 41
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 2
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 5
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 6
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 7
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 8
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 9
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 10
+      - 🇫🇷 法国 006
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇬🇧 2,4,7,15|_CN_中国->🇬🇧_GB_英国
+      - "@SSRSUB-V16-付费推荐dlj.tf/ssrsub"
+      - 🇿🇦 github.com/freefq - 南非  15
+      - 🇿🇦 github.com/freefq - 南非  5
+      - 未知_0825026
+      - "🇫🇷 %�\x11�%�P���_FR_法国_18%�"
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - ZZ_20
+      - 🇻🇳 越南(油管破解资源君2.0) 2
+      - 🇻🇳 越南(油管破解资源君2.0) 3
+      - 🇻🇳 越南(油管破解资源君2.0) 4
+      - 🇻🇳 越南(油管破解资源君2.0) 5
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9
+      - github.com/freefq - 亚太地区  12
+      - 🇫🇷 github.com/freefq - 法国OVH 13
+      - 🇨🇳 github.com/freefq - 江苏省联通 19
+      - github.com/freefq - 亚太地区  21
+      - 🇪🇺 欧洲(油管破解资源君2.0) 24
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,11 +254,38 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - HK_speednode_0022
-      - 🇭🇰 香港 048
-      - 🇭🇰 香港 046
-      - 🇭🇰 香港 051
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇸🇬 新加坡 014
+      - 🇯🇵 日本 006
+      - 🇭🇰 _HK_香港 6
+      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _HK_香港 3
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港 4
+      - 🇭🇰 _HK_香港 5
+      - 🇭🇰 香港(油管破解资源君2.0) 28
+      - 🇭🇰 香港(油管破解资源君2.0)
+      - 🇭🇰 香港(油管破解资源君2.0) 2
+      - 🇭🇰 香港(油管破解资源君2.0) 5
+      - 🇭🇰 香港(油管破解资源君2.0) 6
+      - 🇭🇰 香港(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 8
+      - 🇭🇰 香港(油管破解资源君2.0) 15
+      - 🇭🇰 香港(油管破解资源君2.0) 26
+      - 🇭🇰 香港(油管破解资源君2.0) 27
+      - 🇨🇳 台湾(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 29
+      - 🇸🇬 新加坡(油管破解资源君2.0)
+      - 🇸🇬 新加坡(油管破解资源君2.0) 5
+      - 🇸🇬 新加坡(油管破解资源君2.0) 6
+      - 🇸🇬 新加坡(油管破解资源君2.0) 8
+      - 🇭🇰 github.com/freefq - 香港香港宽频有限公司 1
+      - 🇭🇰 github.com/freefq - 香港城市电讯有限公司 2
+      - 🇯🇵 日本(油管破解资源君2.0) 5
+      - 🇯🇵 日本(油管破解资源君2.0) 4
+      - 🇯🇵 日本(油管破解资源君2.0) 3
+      - 🇯🇵 日本(油管破解资源君2.0) 2
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
@@ -269,91 +298,92 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
-      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 18 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 23 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇺🇸 美国 111
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 115
-      - 🇺🇸 V006--US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 109
-      - 🇺🇸 美国 113
-      - 🇨🇦 加拿大 169
-      - 🇺🇸 美国 112
-      - 🇨🇦 加拿大 178
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 117
-      - 🇨🇦 加拿大 184
-      - 🇺🇸 美国 114
-      - 🇺🇸 美国CloudFlare节点 13
-      - 🇨🇦 加拿大 183
-      - 🇨🇦 加拿大 180
-      - 🇨🇦 加拿大 177
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国_0824005
-      - 🇺🇸 美国_0824055
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
-      - US_09
-      - 🇫🇷 法国 006
-      - "@SSRSUB-V16-付费推荐dlj.tf/ssrsub"
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 加拿大 209
+      - 🇺🇸 美国 249
+      - 🇺🇸 美国 266
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国_08251950
+      - 🇺🇸 美国_08251490
+      - 🇺🇸 美国_08251495
+      - 🇺🇸 美国 241
+      - 🇨🇦 加拿大 111
+      - 🇺🇸 美国_08251483
+      - 🇺🇸 美国_08251924
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国_08251493
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_08251488
+      - 🇺🇸 美国_08251936
+      - 🇺🇸 美国_08251930
+      - 🇺🇸 美国 248
+      - 🇺🇸 美国_08251654
+      - _CN_中国
+      - 未知_0825027
+      - 🇫🇷 法国_0825017
       - "@SSRSUB-V14-付费推荐dlj.tf/ssrsub"
-      - "@SSRSUB-V13-付费推荐dlj.tf/ssrsub"
-      - "@SSRSUB-V19-付费推荐dlj.tf/ssrsub"
-      - FR_speednode_0017
-      - "@SSRSUB-V06-付费推荐dlj.tf/ssrsub"
-      - FR_speednode_0010
-      - 🇪🇺 欧洲(油管破解资源君2.0) 36
-      - 🇪🇺 欧洲(油管破解资源君2.0) 37
-      - 🇪🇺 欧洲(油管破解资源君2.0) 38
-      - 🇪🇺 欧洲(油管破解资源君2.0) 39
-      - 亚洲(油管破解资源君2.0) 14
-      - 🇪🇺 欧洲(油管破解资源君2.0) 41
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 2
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 5
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 6
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 7
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 8
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 9
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 10
+      - 🇫🇷 法国 006
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇬🇧 2,4,7,15|_CN_中国->🇬🇧_GB_英国
+      - "@SSRSUB-V16-付费推荐dlj.tf/ssrsub"
+      - 🇿🇦 github.com/freefq - 南非  15
+      - 🇿🇦 github.com/freefq - 南非  5
+      - 未知_0825026
+      - "🇫🇷 %�\x11�%�P���_FR_法国_18%�"
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - ZZ_20
+      - 🇻🇳 越南(油管破解资源君2.0) 2
+      - 🇻🇳 越南(油管破解资源君2.0) 3
+      - 🇻🇳 越南(油管破解资源君2.0) 4
+      - 🇻🇳 越南(油管破解资源君2.0) 5
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9
+      - github.com/freefq - 亚太地区  12
+      - 🇫🇷 github.com/freefq - 法国OVH 13
+      - 🇨🇳 github.com/freefq - 江苏省联通 19
+      - github.com/freefq - 亚太地区  21
+      - 🇪🇺 欧洲(油管破解资源君2.0) 24
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK_speednode_0022
-      - 🇭🇰 香港 048
-      - 🇭🇰 香港 046
-      - 🇭🇰 香港 051
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇸🇬 新加坡 014
+      - 🇯🇵 日本 006
+      - 🇭🇰 _HK_香港 6
+      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _HK_香港 3
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港 4
+      - 🇭🇰 _HK_香港 5
+      - 🇭🇰 香港(油管破解资源君2.0) 28
+      - 🇭🇰 香港(油管破解资源君2.0)
+      - 🇭🇰 香港(油管破解资源君2.0) 2
+      - 🇭🇰 香港(油管破解资源君2.0) 5
+      - 🇭🇰 香港(油管破解资源君2.0) 6
+      - 🇭🇰 香港(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 8
+      - 🇭🇰 香港(油管破解资源君2.0) 15
+      - 🇭🇰 香港(油管破解资源君2.0) 26
+      - 🇭🇰 香港(油管破解资源君2.0) 27
+      - 🇨🇳 台湾(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 29
+      - 🇸🇬 新加坡(油管破解资源君2.0)
+      - 🇸🇬 新加坡(油管破解资源君2.0) 5
+      - 🇸🇬 新加坡(油管破解资源君2.0) 6
+      - 🇸🇬 新加坡(油管破解资源君2.0) 8
+      - 🇭🇰 github.com/freefq - 香港香港宽频有限公司 1
+      - 🇭🇰 github.com/freefq - 香港城市电讯有限公司 2
+      - 🇯🇵 日本(油管破解资源君2.0) 5
+      - 🇯🇵 日本(油管破解资源君2.0) 4
+      - 🇯🇵 日本(油管破解资源君2.0) 3
+      - 🇯🇵 日本(油管破解资源君2.0) 2
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
@@ -366,80 +396,54 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
-      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 18 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 23 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇺🇸 美国 111
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 115
-      - 🇺🇸 V006--US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 109
-      - 🇺🇸 美国 113
-      - 🇨🇦 加拿大 169
-      - 🇺🇸 美国 112
-      - 🇨🇦 加拿大 178
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 117
-      - 🇨🇦 加拿大 184
-      - 🇺🇸 美国 114
-      - 🇺🇸 美国CloudFlare节点 13
-      - 🇨🇦 加拿大 183
-      - 🇨🇦 加拿大 180
-      - 🇨🇦 加拿大 177
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国_0824005
-      - 🇺🇸 美国_0824055
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
-      - US_09
-      - 🇫🇷 法国 006
-      - "@SSRSUB-V16-付费推荐dlj.tf/ssrsub"
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 加拿大 209
+      - 🇺🇸 美国 249
+      - 🇺🇸 美国 266
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国_08251950
+      - 🇺🇸 美国_08251490
+      - 🇺🇸 美国_08251495
+      - 🇺🇸 美国 241
+      - 🇨🇦 加拿大 111
+      - 🇺🇸 美国_08251483
+      - 🇺🇸 美国_08251924
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国_08251493
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_08251488
+      - 🇺🇸 美国_08251936
+      - 🇺🇸 美国_08251930
+      - 🇺🇸 美国 248
+      - 🇺🇸 美国_08251654
+      - _CN_中国
+      - 未知_0825027
+      - 🇫🇷 法国_0825017
       - "@SSRSUB-V14-付费推荐dlj.tf/ssrsub"
-      - "@SSRSUB-V13-付费推荐dlj.tf/ssrsub"
-      - "@SSRSUB-V19-付费推荐dlj.tf/ssrsub"
-      - FR_speednode_0017
-      - "@SSRSUB-V06-付费推荐dlj.tf/ssrsub"
-      - FR_speednode_0010
-      - 🇪🇺 欧洲(油管破解资源君2.0) 36
-      - 🇪🇺 欧洲(油管破解资源君2.0) 37
-      - 🇪🇺 欧洲(油管破解资源君2.0) 38
-      - 🇪🇺 欧洲(油管破解资源君2.0) 39
-      - 亚洲(油管破解资源君2.0) 14
-      - 🇪🇺 欧洲(油管破解资源君2.0) 41
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 2
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 5
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 6
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 7
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 8
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 9
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 10
+      - 🇫🇷 法国 006
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇬🇧 2,4,7,15|_CN_中国->🇬🇧_GB_英国
+      - "@SSRSUB-V16-付费推荐dlj.tf/ssrsub"
+      - 🇿🇦 github.com/freefq - 南非  15
+      - 🇿🇦 github.com/freefq - 南非  5
+      - 未知_0825026
+      - "🇫🇷 %�\x11�%�P���_FR_法国_18%�"
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - ZZ_20
+      - 🇻🇳 越南(油管破解资源君2.0) 2
+      - 🇻🇳 越南(油管破解资源君2.0) 3
+      - 🇻🇳 越南(油管破解资源君2.0) 4
+      - 🇻🇳 越南(油管破解资源君2.0) 5
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9
+      - github.com/freefq - 亚太地区  12
+      - 🇫🇷 github.com/freefq - 法国OVH 13
+      - 🇨🇳 github.com/freefq - 江苏省联通 19
+      - github.com/freefq - 亚太地区  21
+      - 🇪🇺 欧洲(油管破解资源君2.0) 24
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -452,40 +456,68 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇺🇸 美国 111
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 115
-      - 🇺🇸 V006--US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 109
-      - 🇺🇸 美国 113
-      - 🇨🇦 加拿大 169
-      - 🇺🇸 美国 112
-      - 🇨🇦 加拿大 178
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 117
-      - 🇨🇦 加拿大 184
-      - 🇺🇸 美国 114
-      - 🇺🇸 美国CloudFlare节点 13
-      - 🇨🇦 加拿大 183
-      - 🇨🇦 加拿大 180
-      - 🇨🇦 加拿大 177
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国_0824005
-      - 🇺🇸 美国_0824055
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
-      - US_09
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇨🇦 加拿大 209
+      - 🇺🇸 美国 249
+      - 🇺🇸 美国 266
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国_08251950
+      - 🇺🇸 美国_08251490
+      - 🇺🇸 美国_08251495
+      - 🇺🇸 美国 241
+      - 🇨🇦 加拿大 111
+      - 🇺🇸 美国_08251483
+      - 🇺🇸 美国_08251924
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国_08251493
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_08251488
+      - 🇺🇸 美国_08251936
+      - 🇺🇸 美国_08251930
+      - 🇺🇸 美国 248
+      - 🇺🇸 美国_08251654
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - HK_speednode_0022
-      - 🇭🇰 香港 048
-      - 🇭🇰 香港 046
-      - 🇭🇰 香港 051
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇸🇬 新加坡 014
+      - 🇯🇵 日本 006
+      - 🇭🇰 _HK_香港 6
+      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _HK_香港 3
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港 4
+      - 🇭🇰 _HK_香港 5
+      - 🇭🇰 香港(油管破解资源君2.0) 28
+      - 🇭🇰 香港(油管破解资源君2.0)
+      - 🇭🇰 香港(油管破解资源君2.0) 2
+      - 🇭🇰 香港(油管破解资源君2.0) 5
+      - 🇭🇰 香港(油管破解资源君2.0) 6
+      - 🇭🇰 香港(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 8
+      - 🇭🇰 香港(油管破解资源君2.0) 15
+      - 🇭🇰 香港(油管破解资源君2.0) 26
+      - 🇭🇰 香港(油管破解资源君2.0) 27
+      - 🇨🇳 台湾(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 29
+      - 🇸🇬 新加坡(油管破解资源君2.0)
+      - 🇸🇬 新加坡(油管破解资源君2.0) 5
+      - 🇸🇬 新加坡(油管破解资源君2.0) 6
+      - 🇸🇬 新加坡(油管破解资源君2.0) 8
+      - 🇭🇰 github.com/freefq - 香港香港宽频有限公司 1
+      - 🇭🇰 github.com/freefq - 香港城市电讯有限公司 2
+      - 🇯🇵 日本(油管破解资源君2.0) 5
+      - 🇯🇵 日本(油管破解资源君2.0) 4
+      - 🇯🇵 日本(油管破解资源君2.0) 3
+      - 🇯🇵 日本(油管破解资源君2.0) 2
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
@@ -498,92 +530,36 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
-      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 18 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 23 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 18 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 23 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇫🇷 法国 006
-      - "@SSRSUB-V16-付费推荐dlj.tf/ssrsub"
+      - _CN_中国
+      - 未知_0825027
+      - 🇫🇷 法国_0825017
       - "@SSRSUB-V14-付费推荐dlj.tf/ssrsub"
-      - "@SSRSUB-V13-付费推荐dlj.tf/ssrsub"
-      - "@SSRSUB-V19-付费推荐dlj.tf/ssrsub"
-      - FR_speednode_0017
-      - "@SSRSUB-V06-付费推荐dlj.tf/ssrsub"
-      - FR_speednode_0010
-      - 🇪🇺 欧洲(油管破解资源君2.0) 36
-      - 🇪🇺 欧洲(油管破解资源君2.0) 37
-      - 🇪🇺 欧洲(油管破解资源君2.0) 38
-      - 🇪🇺 欧洲(油管破解资源君2.0) 39
-      - 亚洲(油管破解资源君2.0) 14
-      - 🇪🇺 欧洲(油管破解资源君2.0) 41
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 2
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 5
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 6
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 7
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 8
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 9
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 10
+      - 🇫🇷 法国 006
+      - 🇦🇹 _FR_法国->🇦🇹_AT_奥地利
+      - 🇬🇧 2,4,7,15|_CN_中国->🇬🇧_GB_英国
+      - "@SSRSUB-V16-付费推荐dlj.tf/ssrsub"
+      - 🇿🇦 github.com/freefq - 南非  15
+      - 🇿🇦 github.com/freefq - 南非  5
+      - 未知_0825026
+      - "🇫🇷 %�\x11�%�P���_FR_法国_18%�"
+      - 🇷🇺 github.com/freefq - 俄罗斯  35
+      - ZZ_20
+      - 🇻🇳 越南(油管破解资源君2.0) 2
+      - 🇻🇳 越南(油管破解资源君2.0) 3
+      - 🇻🇳 越南(油管破解资源君2.0) 4
+      - 🇻🇳 越南(油管破解资源君2.0) 5
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9
+      - github.com/freefq - 亚太地区  12
+      - 🇫🇷 github.com/freefq - 法国OVH 13
+      - 🇨🇳 github.com/freefq - 江苏省联通 19
+      - github.com/freefq - 亚太地区  21
+      - 🇪🇺 欧洲(油管破解资源君2.0) 24
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -596,56 +572,77 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇺🇸 美国 111
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 115
-      - 🇺🇸 V006--US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 109
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 112
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 117
-      - 🇺🇸 美国 114
-      - 🇺🇸 美国CloudFlare节点 13
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国_0824005
-      - 🇺🇸 美国_0824055
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
-      - US_09
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国 249
+      - 🇺🇸 美国 266
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国_08251950
+      - 🇺🇸 美国_08251490
+      - 🇺🇸 美国_08251495
+      - 🇺🇸 美国 241
+      - 🇺🇸 美国_08251483
+      - 🇺🇸 美国_08251924
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国_08251493
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_08251488
+      - 🇺🇸 美国_08251936
+      - 🇺🇸 美国_08251930
+      - 🇺🇸 美国 248
+      - 🇺🇸 美国_08251654
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - HK_speednode_0022
-      - 🇭🇰 香港 048
-      - 🇭🇰 香港 046
-      - 🇭🇰 香港 051
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
+      - 🇭🇰 _HK_香港 6
+      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _HK_香港 3
+      - 🇭🇰 _HK_香港 4
+      - 🇭🇰 _HK_香港 5
+      - 🇭🇰 香港(油管破解资源君2.0) 28
+      - 🇭🇰 香港(油管破解资源君2.0)
+      - 🇭🇰 香港(油管破解资源君2.0) 2
+      - 🇭🇰 香港(油管破解资源君2.0) 5
+      - 🇭🇰 香港(油管破解资源君2.0) 6
+      - 🇭🇰 香港(油管破解资源君2.0) 7
+      - 🇭🇰 香港(油管破解资源君2.0) 8
+      - 🇭🇰 香港(油管破解资源君2.0) 15
+      - 🇭🇰 香港(油管破解资源君2.0) 26
+      - 🇭🇰 香港(油管破解资源君2.0) 27
+      - 🇭🇰 香港(油管破解资源君2.0) 29
+      - 🇭🇰 github.com/freefq - 香港香港宽频有限公司 1
+      - 🇭🇰 github.com/freefq - 香港城市电讯有限公司 2
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 新加坡 014
+      - 🇸🇬 新加坡(油管破解资源君2.0)
+      - 🇸🇬 新加坡(油管破解资源君2.0) 5
+      - 🇸🇬 新加坡(油管破解资源君2.0) 6
+      - 🇸🇬 新加坡(油管破解资源君2.0) 8
       - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
       - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 日本 006
+      - 🇯🇵 日本(油管破解资源君2.0) 5
+      - 🇯🇵 日本(油管破解资源君2.0) 4
+      - 🇯🇵 日本(油管破解资源君2.0) 3
+      - 🇯🇵 日本(油管破解资源君2.0) 2
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
@@ -654,854 +651,25 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
-      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan 18 TG@SSRSUB
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 23 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
+      - 🇨🇳 台湾(油管破解资源君2.0) 7
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
-      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
 rules:
- - DOMAIN,asusrouter.com,DIRECT
- - DOMAIN,instant.arubanetworks.com,DIRECT
- - DOMAIN,router.asus.com,DIRECT
- - DOMAIN,setmeup.arubanetworks.com,DIRECT
- - DOMAIN,www.asusrouter.com,DIRECT
- - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,DIRECT
- - DOMAIN-SUFFIX,0.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,DIRECT
- - DOMAIN-SUFFIX,10.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,100.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,100.51.198.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,101.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,102.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,103.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,104.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,105.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,106.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,107.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,108.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,109.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,110.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,111.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,112.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,113.0.203.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,113.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,114.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,115.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,116.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,117.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,118.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,119.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,120.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,121.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,122.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,123.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,124.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,125.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,126.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,127.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,127.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,16.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,168.192.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,17.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,18.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,19.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,2.0.192.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,20.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,21.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,22.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,23.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,24.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,25.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,254.169.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,255.255.255.255.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,26.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,27.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,28.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,29.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,30.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,31.172.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,64.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,65.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,66.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,67.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,68.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,69.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,70.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,71.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,72.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,73.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,74.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,75.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,76.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,77.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,78.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,79.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,8.b.d.0.1.0.0.2.ip6.arpa,DIRECT
- - DOMAIN-SUFFIX,8.e.f.ip6.arpa,DIRECT
- - DOMAIN-SUFFIX,80.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,81.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,82.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,83.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,84.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,85.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,86.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,87.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,88.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,89.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,9.e.f.ip6.arpa,DIRECT
- - DOMAIN-SUFFIX,90.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,91.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,92.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,93.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,94.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,95.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,96.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,97.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,98.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,99.100.in-addr.arpa,DIRECT
- - DOMAIN-SUFFIX,a.e.f.ip6.arpa,DIRECT
- - DOMAIN-SUFFIX,acl4.ssr,DIRECT
- - DOMAIN-SUFFIX,b.e.f.ip6.arpa,DIRECT
- - DOMAIN-SUFFIX,captive.apple.com,DIRECT
- - DOMAIN-SUFFIX,connectivitycheck.gstatic.com,DIRECT
- - DOMAIN-SUFFIX,d.f.ip6.arpa,DIRECT
- - DOMAIN-SUFFIX,hiwifi.com,DIRECT
- - DOMAIN-SUFFIX,home.arpa,DIRECT
- - DOMAIN-SUFFIX,leike.cc,DIRECT
- - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com,DIRECT
- - DOMAIN-SUFFIX,localhost.sec.qq.com,DIRECT
- - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
- - DOMAIN-SUFFIX,msftncsi.com,DIRECT
- - DOMAIN-SUFFIX,my.router,DIRECT
- - DOMAIN-SUFFIX,networkcheck.kde.org,DIRECT
- - DOMAIN-SUFFIX,p.to,DIRECT
- - DOMAIN-SUFFIX,peiluyou.com,DIRECT
- - DOMAIN-SUFFIX,phicomm.me,DIRECT
- - DOMAIN-SUFFIX,plex.direct,DIRECT
- - DOMAIN-SUFFIX,router.ctc,DIRECT
- - DOMAIN-SUFFIX,routerlogin.com,DIRECT
- - DOMAIN-SUFFIX,tendawifi.com,DIRECT
- - DOMAIN-SUFFIX,tplinkwifi.net,DIRECT
- - DOMAIN-SUFFIX,tplogin.cn,DIRECT
- - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
- - DOMAIN-SUFFIX,zte.home,DIRECT
- - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
- - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
- - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
- - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
- - IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
- - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
- - IP-CIDR,192.0.0.0/24,DIRECT,no-resolve
- - IP-CIDR,192.0.2.0/24,DIRECT,no-resolve
- - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
- - IP-CIDR,192.88.99.0/24,DIRECT,no-resolve
- - IP-CIDR,198.18.0.0/15,DIRECT,no-resolve
- - IP-CIDR,198.51.100.0/24,DIRECT,no-resolve
- - IP-CIDR,203.0.113.0/24,DIRECT,no-resolve
- - IP-CIDR,224.0.0.0/3,DIRECT,no-resolve
- - IP-CIDR6,::1/128,DIRECT,no-resolve
- - IP-CIDR6,fc00::/7,DIRECT,no-resolve
- - IP-CIDR6,fe80::/10,DIRECT,no-resolve
- - IP-CIDR6,ff00::/8,DIRECT,no-resolve
- - DOMAIN,github-cloud.s3.amazonaws.com,Ⓜ️ 微软服务
- - DOMAIN,vsmarketplacebadge.apphb.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,21vbc.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,21vbluecloud.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,21vbluecloud.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,a-msedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,a1158.g.akamai.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,a122.dscg3.akamai.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,a767.dscg3.akamai.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aadrm.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,adaptivecards.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aggresmart.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aicscience.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,akadns.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ankarazirvesi2018.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,api-extractor.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,apihub-internal.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,apisof.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,appcenter.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,applicationinsights.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,applicationinsights.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,appserviceenvironment.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aria.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,asp.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azcrmc-test.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azcrmc.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azk8s.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aznbcontent.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aztask.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-api.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-apihub.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-apim.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-automation.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-connectedvehicles-stage.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-connectedvehicles.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-devices-int.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-devices-provisioning.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-devices.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-devices.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-dns.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-dns.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-dns.info,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-dns.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-dns.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-mobile.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-sphere.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure-test.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecomcdn.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecomm.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecontainer.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecosmos.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecosmosdb.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecosmosdb.info,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecosmosdb.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecr-test.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurecr.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuredatabricks.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuredevopslaunch.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuredigitaltwin.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuredigitaltwins.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuredigitaltwins.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuredns-prd.info,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuredns-prd.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureedge-test.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurefd.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurefd.us,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurehdinsight.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureiotsolutions.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureiotsuite.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureiotsuite.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuremresolver.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureplanetscale.info,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureplanetscale.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureprivatedns.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurerms.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuresandbox.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureserviceprofiler.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azuresmartspaces.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurestackvalidation.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurewebsites.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,b.akamaiedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,b2clogin.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,b3itech.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bbing.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,beth.games,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bethesda.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bethesdagamestudios.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bethsoft.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bibg.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,biing.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,binads.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,binb.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,binf.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bing,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bing.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bing123.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bing135.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bing4.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingads.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingagencyawards.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingapistatistics.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,binginternal.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingit.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingiton.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingj.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingpix.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingpk.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bings.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingsandbox.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingtoolbar.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingtranslator.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingvisualsearch.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bingworld.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,biying.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,biying.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,biying.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,blazor.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,blueaggrestore.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bluecloudprod.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bluehatil.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bluehatnights.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,boswp.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,botframework.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,brazilpartneruniversity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,breakdown.me,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,c-msedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,callersbane.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cegid-cloud.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,centralvalidation.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ch9.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,charticulator.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,chinacloud-mobile.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,chinacloudapi.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,chinacloudapp.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,chinacloudsites.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,codethemicrobit.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cortana.ai,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cortanaanalytics.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cortanaskills.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cosmosdb.info,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cosmosdb.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,crmdynint-gcc.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,crmdynint.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,crossborderexpansion.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cs11.wpc.v0cdn.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cs9.wac.phicdn.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,devopsassessment.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,devopsms.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,dictate.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,discoverbing.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,docs.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,doom.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,dot.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,dwh5.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,dynamics.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,dynamics.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,e-msedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,efproject.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,elderscrolls.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,engkoo.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,evoke-windowsservices-tas.msedge,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,exp-tas.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,explorebing.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,fabric.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,fasttrackreadysupport.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,femalefounderscomp.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,flipwithsurface.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,fluidpreview.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,footprintdns.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,forzamotorsport.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,forzaracingchampionship.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,forzarc.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,g.akamaiedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gamepass.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gamesstack.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gameuxmasterguide.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gears5.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gearspop.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gearstactics.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,getmicrosoftkey.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gigjam.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gotcosmos.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,graphengine.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,groupme.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hdinsightservices.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,helpshift.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,here.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,here.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,heremaps.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hockeyapp.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hololens.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hotmail,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hotmail.co,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hotmail.eu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hotmail.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hotmail.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hummingbird.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ie10.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ie11.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ie8.co,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ie9.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,imaginecup.pl,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,img-prod-cms-rt-microsoft-com.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ingads.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,insiderdevtour.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,internetexplorer.co,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,internetexplorer.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,intunewiki.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,iotinactionevents.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,joinms.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,joinms.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,joinmva.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,jwt.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,kidgrid.tv,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,kumo.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,latampartneruniversity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,live.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,live.com.au,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,live.eu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,live.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,livingyourambition.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,localytics.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,lync.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,m12.vc,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,makecode.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,managedmeetingrooms.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,management-azure-devices-int.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,management-azure-devices-provisioning.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,management-azure-devices.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,management-azure-devices.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mapblast.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mappoint.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,masalladeloslimites.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mcchcdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,meetfasttrack.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,meetyourdevices.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mepn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mesh.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mgmt-azure-api.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microbit.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-falcon.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-give.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-int.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-online.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-online.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-ppe.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-sap-events.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-sbs-domains.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-smb.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft-tst.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.az,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.be,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.by,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.ca,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.cat,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.ch,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.cl,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.com.nsatc.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.cz,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.de,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.dk,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.ee,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.es,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.eu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.fi,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.ge,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.hu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.is,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.it,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.jp,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.lt,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.lu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.lv,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.md,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.pl,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.pt,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.red,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.ro,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.rs,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.ru,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.se,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.si,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.tv,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.ua,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.uz,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft.vn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoft365.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftaccountguard.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftadc.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftads.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftadvertising.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftadvertisingregionalawards.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftaffiliates.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftapp.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftazuread-sso.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftazuresponsorships.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftazurestatus.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftcloud.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftcloudsummit.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftcloudworkshop.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftcommunitytraining.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftdiplomados.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsofteca.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftedge.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftedgeinsider.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftemail.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftestore.com.hk,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftgamestack.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsofthouse.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsofthouse.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftinternetsafety.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftiotcentral.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftiotinsiderlabs.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftlatamaitour.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftlatamholiday.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftlinc.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftmetrics.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftmxfilantropia.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnews.cc,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnews.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnews.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnews.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnews.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnewsforkids.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnewsforkids.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnewsforkids.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnewskids.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnewskids.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftnewskids.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftol.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftol.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-i.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-m-i.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-m.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-p-i.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-p-i.net.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-p.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-p.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-p.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline-p.net.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftonline.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftpartnercommunity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftpartnersolutions.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftreactor.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftreactor.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftreactor.info,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftreactor.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftreactor.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftready.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftsilverlight.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftsilverlight.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftsilverlight.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftsiteselection.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftsqlserver.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftstore.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftstore.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftstore.com.hk,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftstream.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftteams.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsofttradein.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsofttranslator-int.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsofttranslator.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftusercontent.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,microsoftuwp.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,minecraft.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,minecraftshop.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mmais.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mmdnn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mncmsidlab1.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mojang.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,momentumms.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mono-project.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,morphcharts.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mpnevolution.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ms-studiosmedia.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ms365surfaceoffer.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msa.akadns6.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msads.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msappproxy.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msauth.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msauthimages.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mschallenge2018.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mschcdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msft.info,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftauth.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftauthimages.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftcenterone.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftcloudes.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftconnecttest.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msfteducation.ca,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftnet.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msgamesresearch.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msgamestudios.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msidentity.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msidlabpbmc.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msignitechina.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msinnovationchallenge.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msminico.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msminico.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msn.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msn.com.nsatc.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msn.com.tw,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msn.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msnewskids.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msnewskids.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msnewskids.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msnkids.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msnmaps.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msopentech.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mspairlift.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mspil.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msra.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msropendata.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msturing.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msudalosti.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msunlimitedcloudsummit.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msvevent.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msxiaobing.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msxiaoice.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msxiaona.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mwf-service.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,myhomemsn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mymicrosoft.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,nextechafrica.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,nuget.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,nugettest.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,nxta.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,o365cn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,o365files.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,o365weve-dev.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,o365weve-ppe.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office365-net.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office365.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office365love.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office365tw.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,officedev.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,officeplus.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,officewebapps.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onecollector.cloudapp.aria,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onmicrosoft.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onmschina.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,opentranslatorstothings.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,opticsforthecloud.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,optimizely.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,orithegame.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,osdinfra.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,outingsapp.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,outlook.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,outlookgroups.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,ovi.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,passport.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,pbiwebcontent.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,pixapp.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,playfabapi.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,playfabcn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,poshtestgallery.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,powerapps.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,powerappscdn.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,powerappsportals.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,powerautomate.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,powerautomate.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,powerbi.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,powerbi.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,powershellgallery.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,prod-video-cms-rt-microsoft-com.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,projectmurphy.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,projectsangam.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,pwabuilder.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,pxt.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,reactorms.com.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,renlifang.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,renovacionoffice.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,renovacionxboxlive.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,s-microsoft.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,s-msedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,s-msft.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,s-msn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sankie.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sclive.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,serverlesslibrary.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sfbassets.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sharepoint.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,signalr.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skype,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skype.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skypeassets.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sprinklesapp.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sqlserveronlinux.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,statics-marketingsites-eas-ms-com.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,statics-marketingsites-eus-ms-com.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,statics-marketingsites-neu-ms-com.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,successwithteams.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,surface.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,syncshop.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sysinternals.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,tailwindtraders.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,techhub.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,tellmewhygame.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,tenor.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,tfsallin.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,timelinestoryteller.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,trafficmanager.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,translatetheweb.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,trustcenter.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,tryfunctions.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,unity3dcloud.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,unlocklimitlesslearning.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,userpxt.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,uwpcommunitytoolkit.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vfsforgit.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vfsforgit.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,videobreakdown.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,videoindexer.ai,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vip5.afdorigin-prod-am02.afdogw.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,visualstudio-staging.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,visualstudio.co,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,visualstudio.co.uk,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,visualstudio.eu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,visualstudio.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vsallin.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vsassets.io,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vscode-cdn.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vscode-unpkg.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vscode-webview.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,vscode.dev,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,wbd.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,what-fan.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows-int.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows.nl,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows8.hk,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsazure.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsazurestatus.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowscommunity.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowslive.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsmarketplace.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsphone-int.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsphone.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowssearch.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,winhec.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,winhec.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,winmp.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,wlxrs.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,working-bing-int.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xamarin.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbox.co,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbox.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbox.eu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbox.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbox360.co,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbox360.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbox360.eu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbox360.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxab.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxgamepass.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxgamestudios.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxlive.cn,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxlive.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxone.co,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxone.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxone.eu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxplayanywhere.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxservices.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xboxstudios.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,xbx.lv,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,1drv.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,1drv.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,livefilestore.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onedrive.co,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onedrive.co.uk,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onedrive.eu,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onedrive.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onedrive.org,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,Ⓜ️ 微软服务
- - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
- - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
- - DOMAIN-KEYWORD,onedrive,Ⓜ️ 微软服务
- - DOMAIN-KEYWORD,skydrive,Ⓜ️ 微软服务
- - PROCESS-NAME,OneDrive,Ⓜ️ 微软服务
- - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软服务
  - DOMAIN,api.okzy.tv,📺 国外媒体
  - DOMAIN,apm-misaka.biliapi.net,📺 国外媒体
  - DOMAIN,apple.comscoreresearch.com,📺 国外媒体
@@ -7256,275 +6424,6 @@ rules:
  - IP-CIDR6,2a0b:b581::/48,🧱 国内网站,no-resolve
  - IP-CIDR6,2a0b:b582::/48,🧱 国内网站,no-resolve
  - IP-CIDR6,2a0b:b583::/48,🧱 国内网站,no-resolve
- - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,🧱 国内网站
- - DOMAIN,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com,🧱 国内网站
- - DOMAIN,112-81-125-43.dhost.00cdn.com,🧱 国内网站
- - DOMAIN,113-219-145-1.ksyungslb.com,🧱 国内网站
- - DOMAIN,114-236-92-129.ksyungslb.com,🧱 国内网站
- - DOMAIN,180-101-74-1.ksyungslb.com,🧱 国内网站
- - DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com,🧱 国内网站
- - DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj38yzdcca.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj38yzdcco.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj38yzdkca.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj38yzdkco.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com,🧱 国内网站
- - DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com,🧱 国内网站
- - DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com,🧱 国内网站
- - DOMAIN,218-91-225-1.ksyungslb.com,🧱 国内网站
- - DOMAIN,219-155-150-1.ksyungslb.com,🧱 国内网站
- - DOMAIN,222-188-6-1.ksyungslb.com,🧱 国内网站
- - DOMAIN,36-104-134-1.ksyungslb.com,🧱 国内网站
- - DOMAIN,36-25-252-1.ksyungslb.com,🧱 国内网站
- - DOMAIN,3ge3drmttga5nhcbqge3ur.ourdvsss.com,🧱 国内网站
- - DOMAIN,3geauymtsgrzdnqbofa5do.ourdvsss.com,🧱 国内网站
- - DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com,🧱 国内网站
- - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com,🧱 国内网站
- - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com,🧱 国内网站
- - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com,🧱 国内网站
- - DOMAIN,p-bstarstatic.akamaized.net,🧱 国内网站
- - DOMAIN,p.bstarstatic.com,🧱 国内网站
- - DOMAIN,upos-bstar-mirrorakam.akamaized.net,🧱 国内网站
- - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🧱 国内网站
- - DOMAIN,api.iplay.163.com,🧱 国内网站
- - DOMAIN,aqqmusic.tc.qq.com,🧱 国内网站
- - DOMAIN,mam.netease.com,🧱 国内网站
- - DOMAIN,moo.qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,acg.tv,🧱 国内网站
- - DOMAIN-SUFFIX,acgvideo.com,🧱 国内网站
- - DOMAIN-SUFFIX,animetamashi.cn,🧱 国内网站
- - DOMAIN-SUFFIX,animetamashi.com,🧱 国内网站
- - DOMAIN-SUFFIX,anitama.cn,🧱 国内网站
- - DOMAIN-SUFFIX,anitama.net,🧱 国内网站
- - DOMAIN-SUFFIX,b23.tv,🧱 国内网站
- - DOMAIN-SUFFIX,baka.im,🧱 国内网站
- - DOMAIN-SUFFIX,bigfun.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bigfunapp.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bili22.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bili2233.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bili23.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bili33.cn,🧱 国内网站
- - DOMAIN-SUFFIX,biliapi.com,🧱 国内网站
- - DOMAIN-SUFFIX,biliapi.net,🧱 国内网站
- - DOMAIN-SUFFIX,bilibili.cc,🧱 国内网站
- - DOMAIN-SUFFIX,bilibili.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bilibili.co,🧱 国内网站
- - DOMAIN-SUFFIX,bilibili.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilibili.net,🧱 国内网站
- - DOMAIN-SUFFIX,bilibili.tv,🧱 国内网站
- - DOMAIN-SUFFIX,bilibiligame.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bilibiligame.co,🧱 国内网站
- - DOMAIN-SUFFIX,bilibiligame.net,🧱 国内网站
- - DOMAIN-SUFFIX,bilibilipay.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bilibilipay.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilicdn1.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilicdn2.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilicdn3.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilicdn4.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilicdn5.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilicomics.com,🧱 国内网站
- - DOMAIN-SUFFIX,biligame.cn,🧱 国内网站
- - DOMAIN-SUFFIX,biligame.co,🧱 国内网站
- - DOMAIN-SUFFIX,biligame.com,🧱 国内网站
- - DOMAIN-SUFFIX,biligame.net,🧱 国内网站
- - DOMAIN-SUFFIX,biligo.com,🧱 国内网站
- - DOMAIN-SUFFIX,biliimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,biliintl.com,🧱 国内网站
- - DOMAIN-SUFFIX,biliplus.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilivideo.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bilivideo.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilivideo.net,🧱 国内网站
- - DOMAIN-SUFFIX,corari.com,🧱 国内网站
- - DOMAIN-SUFFIX,dreamcast.hk,🧱 国内网站
- - DOMAIN-SUFFIX,dyhgames.com,🧱 国内网站
- - DOMAIN-SUFFIX,hdslb.com,🧱 国内网站
- - DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com,🧱 国内网站
- - DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com,🧱 国内网站
- - DOMAIN-SUFFIX,hdslb.net,🧱 国内网站
- - DOMAIN-SUFFIX,hdslb.org,🧱 国内网站
- - DOMAIN-SUFFIX,im9.com,🧱 国内网站
- - DOMAIN-SUFFIX,maoercdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,mcbbs.net,🧱 国内网站
- - DOMAIN-SUFFIX,mincdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,sharejoytech.com,🧱 国内网站
- - DOMAIN-SUFFIX,smtcdns.net,🧱 国内网站
- - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,🧱 国内网站
- - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,🧱 国内网站
- - DOMAIN-SUFFIX,yo9.com,🧱 国内网站
- - DOMAIN-SUFFIX,cctv.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctv.com,🧱 国内网站
- - DOMAIN-SUFFIX,cctvlib.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvlib.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvlibrary.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvlibrary.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvpic.com,🧱 国内网站
- - DOMAIN-SUFFIX,cctvpro.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvpro.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,chinaepg.cn,🧱 国内网站
- - DOMAIN-SUFFIX,chinalive.com,🧱 国内网站
- - DOMAIN-SUFFIX,citv.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cnms.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cntv.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cntv.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cntvwb.cn,🧱 国内网站
- - DOMAIN-SUFFIX,gjgbdszt.cn,🧱 国内网站
- - DOMAIN-SUFFIX,gjgbdszt.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,gjgbdszt.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ipanda.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ipanda.com,🧱 国内网站
- - DOMAIN-SUFFIX,ipanda.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ipanda.net,🧱 国内网站
- - DOMAIN-SUFFIX,livechina.cn,🧱 国内网站
- - DOMAIN-SUFFIX,livechina.com,🧱 国内网站
- - DOMAIN-SUFFIX,olympicchannelchina.cn,🧱 国内网站
- - DOMAIN-SUFFIX,tvcc.cn,🧱 国内网站
- - DOMAIN-SUFFIX,tvcc.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn,🧱 国内网站
- - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s,🧱 国内网站
- - DOMAIN-SUFFIX,xn--fiq53l90et9fpncc7joo6apn8a.cn,🧱 国内网站
- - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn,🧱 国内网站
- - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s,🧱 国内网站
- - DOMAIN-SUFFIX,zggbdszt.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zggbdszt.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zggbdszt.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zygbdszt.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,1.letvlive.com,🧱 国内网站
- - DOMAIN-SUFFIX,2.letvlive.com,🧱 国内网站
- - DOMAIN-SUFFIX,56.com,🧱 国内网站
- - DOMAIN-SUFFIX,71.am,🧱 国内网站
- - DOMAIN-SUFFIX,71.am.com,🧱 国内网站
- - DOMAIN-SUFFIX,71edge.com,🧱 国内网站
- - DOMAIN-SUFFIX,acfun.cn,🧱 国内网站
- - DOMAIN-SUFFIX,acfun.com,🧱 国内网站
- - DOMAIN-SUFFIX,acfun.tv,🧱 国内网站
- - DOMAIN-SUFFIX,ad.api.3g.tudou.com,🧱 国内网站
- - DOMAIN-SUFFIX,ads1.lfengmobile.com,🧱 国内网站
- - DOMAIN-SUFFIX,afp.pplive.com,🧱 国内网站
- - DOMAIN-SUFFIX,ai.xiaomi.com,🧱 国内网站
- - DOMAIN-SUFFIX,aixifan.com,🧱 国内网站
- - DOMAIN-SUFFIX,androidgo.duapp.com,🧱 国内网站
- - DOMAIN-SUFFIX,api.cupid.qiyi.com,🧱 国内网站
- - DOMAIN-SUFFIX,api.game.letvstore.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdn.zampdsp.com,🧱 国内网站
- - DOMAIN-SUFFIX,cm.fancyapi.com,🧱 国内网站
- - DOMAIN-SUFFIX,cmvideo.cn,🧱 国内网站
- - DOMAIN-SUFFIX,dmhmusic.com,🧱 国内网站
- - DOMAIN-SUFFIX,game.pps.tv,🧱 国内网站
- - DOMAIN-SUFFIX,gitv.tv,🧱 国内网站
- - DOMAIN-SUFFIX,hitv.com,🧱 国内网站
- - DOMAIN-SUFFIX,hunantv.com,🧱 国内网站
- - DOMAIN-SUFFIX,i.qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,iq.com,🧱 国内网站
- - DOMAIN-SUFFIX,iqiyi.com,🧱 国内网站
- - DOMAIN-SUFFIX,iqiyipic.com,🧱 国内网站
- - DOMAIN-SUFFIX,itc.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ixigua.com,🧱 国内网站
- - DOMAIN-SUFFIX,jstucdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,koowo.com,🧱 国内网站
- - DOMAIN-SUFFIX,kugou.com,🧱 国内网站
- - DOMAIN-SUFFIX,kuwo.cn,🧱 国内网站
- - DOMAIN-SUFFIX,le.com,🧱 国内网站
- - DOMAIN-SUFFIX,letv.com,🧱 国内网站
- - DOMAIN-SUFFIX,mgtv.com,🧱 国内网站
- - DOMAIN-SUFFIX,migu.cn,🧱 国内网站
- - DOMAIN-SUFFIX,miguvideo.com,🧱 国内网站
- - DOMAIN-SUFFIX,msg.video.qiyi.com,🧱 国内网站
- - DOMAIN-SUFFIX,msg2.video.qiyi.com,🧱 国内网站
- - DOMAIN-SUFFIX,music.126.net,🧱 国内网站
- - DOMAIN-SUFFIX,music.163.com,🧱 国内网站
- - DOMAIN-SUFFIX,music.qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,music.tc.qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,music.xiaomi.com,🧱 国内网站
- - DOMAIN-SUFFIX,noxagile.duapp.com,🧱 国内网站
- - DOMAIN-SUFFIX,pplive.cn,🧱 国内网站
- - DOMAIN-SUFFIX,pptv.com,🧱 国内网站
- - DOMAIN-SUFFIX,qianqian.com,🧱 国内网站
- - DOMAIN-SUFFIX,qqmusic.qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,qy.net,🧱 国内网站
- - DOMAIN-SUFFIX,s.zampdsp.com,🧱 国内网站
- - DOMAIN-SUFFIX,snssdk.com,🧱 国内网站
- - DOMAIN-SUFFIX,sohu.com,🧱 国内网站
- - DOMAIN-SUFFIX,sohu.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,soku.com,🧱 国内网站
- - DOMAIN-SUFFIX,static.g.ppstream.com,🧱 国内网站
- - DOMAIN-SUFFIX,taihe.com,🧱 国内网站
- - DOMAIN-SUFFIX,tencentmusic.com,🧱 国内网站
- - DOMAIN-SUFFIX,v-56.com,🧱 国内网站
- - DOMAIN-SUFFIX,v.qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,v.smtcdns.com,🧱 国内网站
- - DOMAIN-SUFFIX,video.qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,videojj.com,🧱 国内网站
- - DOMAIN-SUFFIX,xiami.com,🧱 国内网站
- - DOMAIN-SUFFIX,xiami.net,🧱 国内网站
- - DOMAIN-SUFFIX,y.qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,ykimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,youku.com,🧱 国内网站
- - DOMAIN-SUFFIX,zamplus.com,🧱 国内网站
- - DOMAIN-SUFFIX,zimuzu.io,🧱 国内网站
- - DOMAIN-SUFFIX,zimuzu.tv,🧱 国内网站
- - DOMAIN-SUFFIX,zmz2019.com,🧱 国内网站
- - DOMAIN-SUFFIX,zmzapi.com,🧱 国内网站
- - DOMAIN-SUFFIX,zmzapi.net,🧱 国内网站
- - DOMAIN-SUFFIX,zmzfile.com,🧱 国内网站
- - DOMAIN-KEYWORD,bilibili,🧱 国内网站
- - DOMAIN-KEYWORD,qiyi,🧱 国内网站
- - IP-CIDR,101.224.0.0/13,🧱 国内网站,no-resolve
- - IP-CIDR,101.71.154.241/32,🧱 国内网站,no-resolve
- - IP-CIDR,103.126.92.132/31,🧱 国内网站,no-resolve
- - IP-CIDR,106.11.0.0/16,🧱 国内网站,no-resolve
- - IP-CIDR,106.75.74.76/32,🧱 国内网站,no-resolve
- - IP-CIDR,111.206.25.147/32,🧱 国内网站,no-resolve
- - IP-CIDR,112.13.119.17/32,🧱 国内网站,no-resolve
- - IP-CIDR,112.13.122.1/32,🧱 国内网站,no-resolve
- - IP-CIDR,115.236.118.33/32,🧱 国内网站,no-resolve
- - IP-CIDR,115.236.121.1/32,🧱 国内网站,no-resolve
- - IP-CIDR,118.24.63.156/32,🧱 国内网站,no-resolve
- - IP-CIDR,119.176.0.0/12,🧱 国内网站,no-resolve
- - IP-CIDR,119.3.238.64/32,🧱 国内网站,no-resolve
- - IP-CIDR,120.92.108.182/32,🧱 国内网站,no-resolve
- - IP-CIDR,120.92.113.99/32,🧱 国内网站,no-resolve
- - IP-CIDR,120.92.153.217/32,🧱 国内网站,no-resolve
- - IP-CIDR,134.175.207.130/32,🧱 国内网站,no-resolve
- - IP-CIDR,193.112.159.225/32,🧱 国内网站,no-resolve
- - IP-CIDR,203.107.1.0/24,🧱 国内网站,no-resolve
- - IP-CIDR,223.252.199.66/31,🧱 国内网站,no-resolve
- - IP-CIDR,39.105.63.80/32,🧱 国内网站,no-resolve
- - IP-CIDR,45.254.48.1/32,🧱 国内网站,no-resolve
- - IP-CIDR,47.100.127.239/32,🧱 国内网站,no-resolve
- - IP-CIDR,59.111.160.195/32,🧱 国内网站,no-resolve
- - IP-CIDR,59.111.160.197/32,🧱 国内网站,no-resolve
- - IP-CIDR,59.111.181.35/32,🧱 国内网站,no-resolve
- - IP-CIDR,59.111.181.38/32,🧱 国内网站,no-resolve
- - IP-CIDR,59.111.181.60/32,🧱 国内网站,no-resolve
- - PROCESS-NAME,com.bilibili.app.blue,🧱 国内网站
- - PROCESS-NAME,com.bilibili.app.in,🧱 国内网站
- - PROCESS-NAME,com.bilibili.comic,🧱 国内网站
- - PROCESS-NAME,com.bilibili.comic.intl,🧱 国内网站
- - PROCESS-NAME,tv.danmaku.bili,🧱 国内网站
- - PROCESS-NAME,tv.danmaku.bilibilihd,🧱 国内网站
  - DOMAIN,api.waqi.info,🚀 节点选择
  - DOMAIN,aqi.aqicn.org,🚀 节点选择
  - DOMAIN,assets-priconne-redive-us.akamaized.net,🚀 节点选择
